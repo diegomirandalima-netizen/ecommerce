@@ -1,5 +1,8 @@
-.header {
-    background-color: #58b9f5;
-    color: #2235e0;
+h1{
+    background-color: #cccccc;
+    
     text-align: center;
+}
+#banner{
+    width: 100%
 }
