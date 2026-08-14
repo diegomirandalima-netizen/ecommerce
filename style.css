@@ -1,18 +1,29 @@
-h1 { 
-    background-color: #cccccc; 
+body { 
+    background-color: #cccccc;
+}
+
+h1 {
     text-align: center;
-    height: 50px; 
+    height: 150px; 
     border: 10px solid black;
     padding-top: 20px; 
     margin-left: 15px; 
 } 
 
+h2 {
+    text-align: center;
+}
+
 #banner { 
     font-style: italic; 
     width: 100%; 
 } 
-h2 {
 
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
 .beneficios { 
     background: #776b6b; 
@@ -21,13 +32,9 @@ h2 {
 
 .principal { 
     background: #cccccc; 
+    padding: 20px;
 }
 
-
-
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+.itens {
+    font-style: italic;
 }
