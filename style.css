@@ -24,8 +24,9 @@ ul {
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
-}y
-.beneficios { 
+}
+
+#beneficios { 
     background: #776b6b; 
     padding: 30px;
 } 
@@ -38,3 +39,4 @@ ul {
 .itens {
     font-style: italic;
 }
+
