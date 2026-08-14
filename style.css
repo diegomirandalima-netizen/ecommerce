@@ -1,26 +1,22 @@
-h1{
-    background-color: #cccccc;
-h1{
-    text-align: 20px
-    helght: 50px;
-    border: 10px;
-    padding-top: 20px;
-}
-h1{
-    padding-top: 20px;
-    margin-left: 15px;
-}
-#banner{
-    font-style: italic;
-}
-.beneficios{
-    background: #776b6b;
-}
-.principal{
-    background: #cccccc;
-}
+h1 { 
+    background-color: #cccccc; 
     text-align: center;
+    height: 50px; 
+    border: 10px solid black;
+    padding-top: 20px; 
+    margin-left: 15px; 
+} 
+
+#banner { 
+    font-style: italic; 
+    width: 100%; 
+} 
+
+.beneficios { 
+    background: #776b6b; 
+} 
+
+.principal { 
+    background: #cccccc; 
 }
-#banner{
-    width: 100%
-}
+
