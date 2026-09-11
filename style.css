@@ -66,6 +66,7 @@ header nav a {
 }
 
 .imagem-sobre {
+    width: 50%;
     float: left; /* Alinha a imagem a esquerda, fazendo com que o texto contorne ela pelo lado direito */
     margin: 0 20px 20px 0; /* Cria margens de 20px a direita e abaixo da imagem para o texto nao grudar */
 }
