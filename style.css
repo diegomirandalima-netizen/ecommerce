@@ -1,42 +1,128 @@
+/* Configurações Gerais */
 body { 
-    background-color: #cccccc;
+    background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    text-align: center;
-    height: 150px; 
-    border: 5px solid black;
-    padding-top: 20px; 
-    margin-left: 15px; 
-} 
-
-h2 {
-    text-align: center;
+/* Cabeçalho / Menu */
+header {
+    background: #cccccc;
+    padding: 20px 0;
 }
 
+.caixa-header {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    margin-left: 30px;
+}
+
+header nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/* Banner Principal */
 #banner { 
-    font-style: italic; 
     width: 100%; 
+    display: block;
 } 
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-#beneficios { 
-    background: #776b6b; 
-    padding: 30px;
-} 
-
+/* Corpo Principal (Sobre e Benefícios) */
 .principal { 
     background: #cccccc; 
+    padding: 40px 0;
+}
+
+.sobre {
+    width: 940px;
+    margin: 0 auto;
     padding: 20px;
+    background: #cccccc;
+}
+
+.sobre h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.imagem-sobre {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.sobre p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Seção de Benefícios */
+.beneficios-container {
+    background: #ffffff;
+    padding: 40px 0;
+}
+
+.beneficios-container h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.conteudo-beneficios {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-beneficios {
+    width: 40%;
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 .itens {
     font-style: italic;
+    font-size: 18px;
+    line-height: 2;
 }
 
+#imagem-beneficios { 
+    width: 60%;
+    box-shadow: 10px 10px 10px #000000;
+} 
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background: url("bg.jpg"); /* Caso tenha a imagem de fundo texturizada escura */
+    background-color: #000000;
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
