@@ -67,9 +67,9 @@ header nav a {
 
 .imagem-sobre {
     float: left;            /* Alinha a imagem e esquerda e faz o texto contornar a direita */
-    width: 350px;           /* Controla o tamanho (largura) da imagem. Diminua este valor se quiser menor ainda */
+    width: 250px;           /* Controla o tamanho (largura) da imagem. Diminua este valor se quiser menor ainda */
     height: auto;           /* Ajusta a altura automaticamente para a foto nao ficar esticada ou distorcida */
-    margin: 0 30px 20px 0;  /* Cria espacamentos (0 em cima, 30px na direita, 20px embaixo, 0 na esquerda) para o texto na 0o colar na foto */
+    margin: 0 20px 20px 0;  /* Cria espacamentos (0 em cima, 30px na direita, 20px embaixo, 0 na esquerda) para o texto na 0o colar na foto */
 }
 
 .sobre p {
