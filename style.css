@@ -1,128 +1,128 @@
-/* Configurações Gerais */
+/* Configuracoes Gerais */
 body { 
-    background: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
+    background: #ffffff; /* Define a cor de fundo da pagina como branco */
+    font-family: 'Montserrat', sans-serif; /* Define a fonte primaria como Montserrat; usa sans-serif se ela nao carregar */
+    margin: 0; /* Remove as margens padrao do navegador nas bordas da pagina */
+    padding: 0; /* Remove o espacamento interno padrao do corpo da pagina */
 }
 
-/* Cabeçalho / Menu */
+/* Cabecalho / Menu */
 header {
-    background: #cccccc;
-    padding: 20px 0;
+    background: #cccccc; /* Define a cor de fundo do cabecalho como cinza claro */
+    padding: 20px 0; /* Aplica 20px de espacamento interno em cima/baixo e 0 nas laterais */
 }
 
 .caixa-header {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative; /* Define o tipo de posicionamento do elemento para permitir o uso de coordenadas relativas */
+    width: 940px; /* Fixa a largura maxima do conteiner do cabecalho em 940 pixels */
+    margin: 0 auto; /* Zera as margens verticais e centraliza o conteiner horizontalmente na tela */
+    display: flex; /* Ativa o modelo Flexbox para alinhar os elementos filhos de forma flexivel */
+    justify-content: space-between; /* Distribui os itens internos empurrando-os para as extremidades opostas */
+    align-items: center; /* Alinha os itens do cabecalho verticalmente pelo centro */
 }
 
 header nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    display: flex; /* Organiza a lista de links em formato de linha (horizontal) usando Flexbox */
+    list-style: none; /* Remove os marcadores de bolinha padrao da lista */
+    margin: 0; /* Remove a margem padrao da lista */
+    padding: 0; /* Remove o espacamento interno padrao da lista */
 }
 
 header nav li {
-    margin-left: 30px;
+    margin-left: 30px; /* Cria um espacamento de 30px a esquerda de cada item para separa-los */
 }
 
 header nav a {
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
+    text-transform: uppercase; /* Transforma todas as letras dos links do menu em maiusculas */
+    color: #000000; /* Define a cor do texto do link como preto */
+    font-weight: bold; /* Deixa o texto do link em negrito */
+    font-size: 22px; /* Define o tamanho da fonte do link para 22 pixels */
+    text-decoration: none; /* Remove o sublinhado padrao dos links */
 }
 
 /* Banner Principal */
 #banner { 
-    width: 100%; 
-    display: block;
+    width: 100%; /* Faz o banner ocupar toda a largura disponivel (100% da tela) */
+    display: block; /* Garante que o banner se comporte como um elemento de bloco, sem espacos vazios embaixo */
 } 
 
-/* Corpo Principal (Sobre e Benefícios) */
+/* Corpo Principal (Sobre e Beneficios) */
 .principal { 
-    background: #cccccc; 
-    padding: 40px 0;
+    background: #cccccc; /* Define o fundo da secao principal como cinza claro */
+    padding: 40px 0; /* Aplica 40px de espacamento interno em cima/baixo e 0 nas laterais */
 }
 
 .sobre {
-    width: 940px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #cccccc;
+    width: 940px; /* Fixa a largura maxima do bloco 'sobre' em 940 pixels */
+    margin: 0 auto; /* Centraliza o bloco 'sobre' horizontalmente na tela */
+    padding: 20px; /* Aplica 20px de espacamento interno em todos os lados */
+    background: #cccccc; /* Define o fundo da area do texto sobre como cinza claro */
 }
 
 .sobre h1 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 20px;
+    text-align: center; /* Centraliza o texto do titulo principal da secao */
+    font-size: 2em; /* Define o tamanho da fonte para o dobro do tamanho padrao do navegador */
+    margin-bottom: 20px; /* Cria um espaco de 20px abaixo do titulo para separa-lo do conteudo */
 }
 
 .imagem-sobre {
-    float: left;
-    margin: 0 20px 20px 0;
+    float: left; /* Alinha a imagem a esquerda, fazendo com que o texto contorne ela pelo lado direito */
+    margin: 0 20px 20px 0; /* Cria margens de 20px a direita e abaixo da imagem para o texto nao grudar */
 }
 
 .sobre p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 15px;
+    font-size: 18px; /* Define o tamanho do texto do paragrafo para 18 pixels */
+    line-height: 1.6; /* Define o espacamento entre linhas do texto para melhorar a leitura */
+    margin-bottom: 15px; /* Adiciona uma margem de 15px na parte inferior de cada paragrafo */
 }
 
-/* Seção de Benefícios */
+/* Secao de Beneficios */
 .beneficios-container {
-    background: #ffffff;
-    padding: 40px 0;
+    background: #ffffff; /* Define o fundo de toda a secao de beneficios como branco */
+    padding: 40px 0; /* Aplica 40px de espacamento interno em cima/baixo e 0 nas laterais */
 }
 
 .beneficios-container h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 30px;
+    text-align: center; /* Centraliza horizontalmente o titulo da secao de beneficios */
+    font-size: 2em; /* Define o tamanho da fonte do titulo como o dobro do tamanho padrao */
+    margin-bottom: 30px; /* Cria um espaco de 30px abaixo do titulo */
 }
 
 .conteudo-beneficios {
-    width: 940px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 940px; /* Fixa a largura do conteiner interno de beneficios em 940 pixels */
+    margin: 0 auto; /* Centraliza o conteiner de beneficios horizontalmente na tela */
+    display: flex; /* Ativa o Flexbox para organizar a lista e a imagem lado a lado */
+    justify-content: space-between; /* Afasta a lista e a imagem, deixando espaco vazio entre elas */
+    align-items: center; /* Alinha a lista e a imagem verticalmente pelo centro */
 }
 
 .lista-beneficios {
-    width: 40%;
-    list-style-type: disc;
-    padding-left: 20px;
+    width: 40%; /* Faz a lista de beneficios ocupar 40% da largura total do conteiner */
+    list-style-type: disc; /* Garante o uso de marcadores em formato de circulo preenchido (bolinha) */
+    padding-left: 20px; /* Adiciona um espaco de 20px a esquerda para os marcadores nao ficarem cortados */
 }
 
 .itens {
-    font-style: italic;
-    font-size: 18px;
-    line-height: 2;
+    font-style: italic; /* Deixa o texto dos itens da lista em formato italico (inclinado) */
+    font-size: 18px; /* Define o tamanho da fonte dos itens da lista para 18 pixels */
+    line-height: 2; /* Dobra o espacamento entre as linhas da lista para espacar os itens */
 }
 
 #imagem-beneficios { 
-    width: 60%;
-    box-shadow: 10px 10px 10px #000000;
+    width: 60%; /* Faz a imagem de beneficios ocupar 60% da largura total do conteiner */
+    box-shadow: 10px 10px 10px #000000; /* Adiciona uma sombra preta projetada de 10px para a direita e para baixo */
 } 
 
-/* Rodapé */
+/* Rodape */
 footer {
-    text-align: center;
-    background: url("bg.jpg"); /* Caso tenha a imagem de fundo texturizada escura */
-    background-color: #000000;
-    padding: 40px 0;
+    text-align: center; /* Centraliza todos os textos e elementos de midia dentro do rodape */
+    background: url("bg.jpg"); /* Tenta carregar uma imagem chamada 'bg.jpg' como fundo do rodape */
+    background-color: #000000; /* Define a cor preta de fundo (usada caso a imagem 'bg.jpg' falhe ou falte) */
+    padding: 40px 0; /* Aplica 40px de espacamento interno em cima/baixo e 0 nas laterais do rodape */
 }
 
 .copyright {
-    color: #ffffff;
-    font-size: 13px;
-    margin-top: 20px;
+    color: #ffffff; /* Define a cor do texto dos direitos autorais como branco */
+    font-size: 13px; /* Define o tamanho da fonte do texto do rodape para 13 pixels */
+    margin-top: 20px; /* Cria um espaco de 20px acima do texto para separa-lo de elementos anteriores */
 }
