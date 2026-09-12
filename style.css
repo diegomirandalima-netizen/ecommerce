@@ -28,6 +28,22 @@ header nav ul {
     padding: 0; /* Remove o espacamento interno padrao da lista */
 }
 
+.menu a {
+    text-decoration: none;               /* Remove o sublinhado padrao dos links */
+    color: #000000;                  /* Define a cor do texto do link como preto */
+    font-size: 18px;                   /* Define o tamanho da fonte em 18px */
+    font-weight: bold;                 /* Deixa as letras em negrito */
+    text-transform: uppercase;         /* Transforma todas as letras do link em MAIuSCULAS */
+    transition: color 0.3s ease;        /* Cria um efeito suave de 0.3 segundos na transicao de cores */
+}
+
+/* Aplica efeitos visuais quando o usuario passa o mouse por cima do link do menu */
+.menu a:hover {
+    color: #c78c19;                    /* Altera a cor do texto para um tom dourado/amarelado */
+    text-decoration: underline;          /* Adiciona um sublinhado sob o texto */
+    cursor: pointer;                    /* Garante que o cursor do mouse vire a maozinha de clique */
+}
+
 header nav li {
     margin-left: 30px; /* Cria um espacamento de 30px a esquerda de cada item para separa-los */
 }
